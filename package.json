@@ -1,0 +1,43 @@
+{
+  "name": "turk50",
+  "version": "0.0.9",
+  "description": "SOAP client for Amazon Mechanical Turk",
+  "homepage": "http://cognilab.com",
+  "bugs": {
+    "url": "https://github.com/matchdav/turk50/issues"
+  },
+  "author": {
+    "name": "Matthew Davidson",
+    "email": "matthew@cognilab.com",
+    "url": "matthewdavidson.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matchdav/turk50"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "soap": "*",
+    "crypto": "*",
+    "underscore": "*",
+    "async": "~0.2.10",
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "readme": "SOAP client for Amazon Mechanical Turk\n\n## Getting Started\n\nWork in progress.  This is still in alpha.  Documentation coming soon.\nInstall the module with: `npm install turk50`\n\n```javascript\nvar turk = require('turk50');\nvar client = new turk(config);\n```\n\n## Documentation\n_(Coming soon)_\n\n## Examples\n_(Coming soon)_\n\n## Release History\n_(Nothing yet)_\n\n## License\nCopyright (c) 2013 Cognilab. Licensed under the MIT license.\n",
+  "readmeFilename": "README.md",
+  "_id": "turk50@0.0.8",
+  "_from": "turk50@*",
+  "dist": {
+    "shasum": "a7737ace8d420629eff4b1205f88ad8ea410f476"
+  },
+  "_resolved": "https://registry.npmjs.org/turk50/-/turk50-0.0.7.tgz"
+}
