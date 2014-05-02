@@ -6,11 +6,11 @@
   "bugs": {
     "url": "https://github.com/matchdav/turk50/issues"
   },
-  "main":"lib/turk50.js",
-  "scripts":{
-    "start":"lib/turk50.js",
-    "test":"./node_modules/.bin/mocha"
-    },
+  "main": "lib/turk50.js",
+  "scripts": {
+    "start": "lib/turk50.js",
+    "test": "./node_modules/.bin/mocha"
+  },
   "author": {
     "name": "Matthew Davidson",
     "email": "matthew@cognilab.com",
@@ -28,7 +28,10 @@
   "dependencies": {
     "soap": "*",
     "crypto": "*",
-    "async": "~0.2.10"
+    "async": "~0.2.10",
+    "extend": "^1.2.1",
+    "ap": "^0.2.0",
+    "promise": "^5.0.0"
   },
   "devDependencies": {
     "mocha": "^1.18.2",
